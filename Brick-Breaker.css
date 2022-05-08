@@ -1,0 +1,46 @@
+#ball {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+}
+
+#board{
+	left: 35%;
+	top: 10px;
+	border: groove;
+	height: 500px;
+	width: 500px;
+	position: absolute;
+}
+
+#board>.tile{
+	height: 20px;
+	width: 50px;
+	position: absolute;
+}
+
+#platform{
+	height: 10px;
+	width: 100px;
+	position: absolute;
+}
+
+.menuButton {
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	top: 10px;
+	cursor: pointer;
+}
+
+
+#reloadButton:hover {
+	transform: rotate(360deg);
+	transition: 1s;
+}
+
+p {
+	margin-top: 150px;
+	font-size: 25px;
+	font-family: "Lucida Console", "Monaco", monospace;
+}
